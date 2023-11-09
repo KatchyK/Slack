@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+button{
+    all: unset
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:wheat;
+    padding: 10px 20px;  
+}
+nav a{
+color: black;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.started{
+    background-color: #800080;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    font-weight: 700;
+}   
+main img{
+    width: 35%;
+}
+main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 30px 40px;
+}
+.content{
+    width: 50%;
+}
+.content h1{
+    font-size: 75px;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+body{
+    background-color: rgb(218, 250, 239);
+}
+.free{
+    background-color: #800080;
+    padding: 10px 15px;
+    margin-right: 15px;
+    color: azure;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
+.sales{
+    background-color: gray;
+    padding: 10px 15px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+}
