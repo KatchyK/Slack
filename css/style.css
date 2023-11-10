@@ -74,3 +74,83 @@ body{
     border: 2px solid #000000;
     border-radius: 5px;
 }
+
+
+@media screen and (max-width: 992px) {
+    .content h1{
+        font-size: 40px;
+        margin: 20px 0px;
+    }    
+    .content p{
+        font-size: 15px;
+    }
+    .button{
+        display: none;
+    }
+    main img{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .content h1{
+        font-size: 30px;
+    }
+    .content p{
+       font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 578px){
+    .content h1{
+        font-size: 25px;
+    }
+    .content p {
+        font-size: 12px;
+    }
+    .toggler{
+        display: block;
+        font-size: 20px;
+    }
+    nav ul{
+        position: fixed;
+        flex-direction: column-reverse;
+        top: -50%;
+        left: 50%;
+        background-color: rgb(134, 245, 245);
+        width: 50%;
+        text-align: center;
+        padding: 20px 10px;
+        transition: 1s;
+        transform: translate( -50%,-50%) ;
+    }
+    .ri-close-line{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 375px){
+    main{
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .content{
+        width: 80%;
+    }
+    main{
+        padding: 25px 30px;
+    }
+
+    /* nav{
+        /* justify-content: ; */
+    } */
+    .content{
+        width: 70%;
+
+    }
+    .free{
+        margin: 0;
+    }
+    .content p{
+        font-size: 15px;
+    }
